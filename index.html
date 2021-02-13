@@ -427,20 +427,20 @@
               <div class="contact-left"></div>
               <div class="contact-right">
                 <h1 class="contact-heading">Contact</h1>
-                <form>
+                <form class="contact-form" action="https://formspree.io/f/xdopvkgy" method="POST">
                   <div class="input-group">
-                    <input type="text" class="field" required/>
-                    <label class="input-label">Full Name*(required)</label>
+                    <input type="text" name="name" class="field" />
+                    <label class="input-label">Full Name</label>
                   </div>
                   <div class="input-group">
-                    <input type="email" class="field"required />
-                    <label class="input-label">Email*(required)</label>
+                    <input type="email" name="mail" class="field"/>
+                    <label class="input-label">Email</label>
                   </div>
                   <div class="input-group">
-                    <textarea class="field" required></textarea>
-                    <label class="message">Message*(required)</label>
+                    <textarea name="message" class="field"></textarea>
+                    <label class="message">Message</label>
                   </div>
-                  <input type="submit" class="submit-btn" value="Submit" />
+                  <input type="submit" name="submit" class="submit-btn" value="Submit" />
                 </form>
               </div>
             </div>
