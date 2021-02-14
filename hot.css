@@ -6,6 +6,10 @@
     list-style: none;
     text-decoration: none;
   }
+
+  a {
+    color: whitesmoke;
+  }
   
   html {
     font-size: 62.5%;
