@@ -921,6 +921,23 @@
       width: 80%;
     }
   }
+
+   /* Portrait */
+   @media only screen 
+   and (min-device-width: 1600px) 
+   and (max-device-width: 900px) 
+   and (-webkit-min-device-pixel-ratio: 2)
+   and (orientation: portrait) { 
+   
+       .banner {
+           margin-left: -25%;
+           margin-top: 10%;
+       }
+       .banner h1 {
+           margin-left:25%;
+       }
+       
+   }
   
   @media (max-width: 1400px) {
     .banner h1 {
