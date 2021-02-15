@@ -8,7 +8,10 @@
   }
 
   a {
-    color: whitesmoke;
+    color: white;
+    font-style: italic, bold;
+    font-size: larger;
+    
   }
   
   html {
