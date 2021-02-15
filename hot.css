@@ -302,6 +302,11 @@
     opacity: 0;
     animation: moveBanner 1s 0.5s forwards;
   }
+  .banner h2 {
+    font-size: 2em;
+    font-style: italic;
+    margin-top: -15px;
+  }
   
   .banner p {
     font-family: "Josefin Slab", serif;
