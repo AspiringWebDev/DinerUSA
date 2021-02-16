@@ -163,6 +163,7 @@
   
   @font-face{
     font-family: Western Bang Bang;
+    font-weight: 100;
     src: url('Western\ Bang\ Bang.woff'), url('Western\ Bang\ Bang.woff') format('woff');}
 
 
@@ -296,7 +297,7 @@
   .banner h1 {
     font-family: "Western Bang Bang";
     font-size: 8rem;
-    font-weight: 300;
+    font-weight: 100;
     margin-left: 20%;
     margin-top: 27%;
     color: #fff;
