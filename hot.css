@@ -161,6 +161,11 @@
     }
   }
   
+  @font-face{
+    font-family: Western Bang Bang;
+    src: url('Western\ Bang\ Bang.woff'), url('Western\ Bang\ Bang.woff') format('woff');}
+
+
   .container {
     display: none;
   }
