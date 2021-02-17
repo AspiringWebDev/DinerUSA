@@ -80,12 +80,7 @@ window.onload = () => {
 
 
 
-// PLUGIN
 
-/*
-	By Osvaldas Valutis, www.osvaldas.info
-	Available for use under the MIT License
-*/
 
 ;(function( $, window, document, undefined )
 {
@@ -295,7 +290,7 @@ window.onload = () => {
 	};
 })( jQuery, window, document );
 
-// ADD PLAYER
+
 $( 'audio' ).audioPlayer(
 {
     classPrefix: 'audioplayer',
