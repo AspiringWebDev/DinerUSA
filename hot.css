@@ -433,6 +433,9 @@
     background-color: red;
   }
   
+
+  
+  
   .about-us {
     width: 100%;
     background-image: url(aboutusbg1.jpg);
@@ -936,11 +939,11 @@
    and (orientation: portrait) { 
    
        .banner {
-           margin-left: -25%;
+           margin-left: -40%;
            margin-top: 10%;
        }
        .banner h1 {
-           margin-left:25%;
+           margin-left:40%;
        }
        
    }
